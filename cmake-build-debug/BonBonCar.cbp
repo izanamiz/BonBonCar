@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BonBonCar"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Program Files (x86)\;CMake Files\Program Files (x86)\SFML\;CMake Files\Program Files (x86)\SFML\lib\;CMake Files\Program Files (x86)\SFML\lib\cmake\;CMake Files\Program Files (x86)\SFML\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BonBonCar">
+				<Option output="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug/BonBonCar.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/Program"/>
+					<Add directory="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Files"/>
+					<Add directory="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/("/>
+					<Add directory="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/x86"/>
+					<Add directory="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/)"/>
+					<Add directory="/SFML/include"/>
+					<Add directory="C:/Program Files (x86)/SFML/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 BonBonCar"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BonBonCar/fast">
+				<Option output="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug/BonBonCar.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/Program"/>
+					<Add directory="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Files"/>
+					<Add directory="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/("/>
+					<Add directory="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/x86"/>
+					<Add directory="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/)"/>
+					<Add directory="/SFML/include"/>
+					<Add directory="C:/Program Files (x86)/SFML/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 BonBonCar/fast"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Animation.cpp">
+			<Option target="BonBonCar"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Animation.hpp">
+			<Option target="BonBonCar"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Bullet.cpp">
+			<Option target="BonBonCar"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Bullet.hpp">
+			<Option target="BonBonCar"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Coin.cpp">
+			<Option target="BonBonCar"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Coin.hpp">
+			<Option target="BonBonCar"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Enemy.cpp">
+			<Option target="BonBonCar"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Enemy.hpp">
+			<Option target="BonBonCar"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Explosion.cpp">
+			<Option target="BonBonCar"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Explosion.hpp">
+			<Option target="BonBonCar"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Game.cpp">
+			<Option target="BonBonCar"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Game.hpp">
+			<Option target="BonBonCar"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Header.hpp">
+			<Option target="BonBonCar"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Load.hpp">
+			<Option target="BonBonCar"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Menu.hpp">
+			<Option target="BonBonCar"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Obstacle.cpp">
+			<Option target="BonBonCar"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Obstacle.hpp">
+			<Option target="BonBonCar"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Player.cpp">
+			<Option target="BonBonCar"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Player.hpp">
+			<Option target="BonBonCar"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/PowerUP.cpp">
+			<Option target="BonBonCar"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/PowerUP.hpp">
+			<Option target="BonBonCar"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/main.cpp">
+			<Option target="BonBonCar"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Program Files (x86)/SFML/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\Program Files (x86)\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Program Files (x86)/SFML/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\Program Files (x86)\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Program Files (x86)/SFML/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Program Files (x86)\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Program Files (x86)/SFML/lib/cmake/SFML/SFMLStaticTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\Program Files (x86)\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Program Files (x86)/SFML/lib/cmake/SFML/SFMLStaticTargets-release.cmake">
+			<Option virtualFolder="CMake Files\Program Files (x86)\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="G:/MyCode/1_CLB/GameC++/FinalProduct/BonBonCar/Program Files (x86)/SFML/lib/cmake/SFML/SFMLStaticTargets.cmake">
+			<Option virtualFolder="CMake Files\Program Files (x86)\SFML\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
